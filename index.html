@@ -3,19 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabela Comparativa</title>
+
+    <style>
+        table tr:nth-child(odd) {
+            background-color: #FFDEAD;
+        }
+        table tr:nth-child(even) {
+            background-color: #b7d5e5;
+        }
+    </style>
 </head>
 <body>
     <header>
-
+        <h3 align="center">COMPARAÇÃO ENTRE AS PRINCIPAIS LINGUAGENS QUE SERÃO ESTUDADAS</h3>
     </header>
     <main>
-        <table>
+        <table border="2" align="center">
             <thead>
+                <tr style="background-color: #D2691E;">
+                    <th style="width: 100px;">Linguagem</th>
+                    <th style="width:300px;">Tipo conversão para ling. máquina</th>
+                    <th>Paradigma de programação suportados</th>
+                    <th>Tipagens existentes</th>
+                    <th>Grau de abstração</th>
+                    <th>Opinião do Estudante</th>
+                </tr>
                 
             </thead>
-            <tbody>
+            <tbody align="center" style="height:500px;">
+                <tr>
+                    <th>PHP</th>
+                    <td>Interpretada</td>
+                    <td>Procedural, reflexiva, orientada a objetos e funcional</td>
+                    <td>Dinâmica/Fraca e Gradual</td>
+                    <td>Alto nível</td>
+                    <td>
+                        Interessante para desenvolvimento web e bem eclética quanto tipagem e paradigmas
+                    </td>
+                </tr>
 
+                <tr>
+                    <th>C#</th>
+                    <td>Compilada</td>
+                    <td>Estruturada,imperativa,concorrente,funcional,genérica,orientada a eventos,orientada a objetos e reflexiva</td>
+                    <td>Estática/forte dinâmica/forte</td>
+                    <td> Alto nível</td>
+                    <td>É uma linguagem muito interessante de se aprender já que a Microsoft ainda domina o mercado com seus produtos.</td>
+                </tr>
+                <tr>
+                    <th>Java</th>
+                    <td>Híbrida</td>
+                    <td>Orientada a objetos, estruturado, imperativo, genérico, funcional, reflexivo e concorrente</td>
+                    <td>Estática/forte</td>
+                    <td>Alto Nível</td>
+                    <td>Linguagem com curva de aprendizado muito longa, tem uam comunidade muito boa e é considarada uma das mais seguras para desenvolvimento web e mobile.</td>
+                </tr>
+                <tr>
+                    <th>Javascript</th>
+                    <td>Interpretada</td>
+                    <td>Orientada a objetos, protótopos, imperativo e funcional</td>
+                    <td>Dinâmica/fraca</td>
+                    <td>Alto nível</td>
+                    <td>Possui recursos e compatibilidades muito bons. Com a expansão para o lado do servidor e programação backend passou a ser fundamental se dominar.</td>
+                </tr>
+                <tr>
+                    <th>Python</th>
+                    <td>Interpretada</td>
+                    <td>Orientada a objetos, imperativo e funcinal</td>
+                    <td>Dinâmica/forte, Duck e gradual</td>
+                    <td>Alto nível</td>
+                    <td>Curva de aprendizagem muito boa, recursos muito bons, está sendo aperfeiçoada para a área de ciência de dados e está ficando muito poderosa nesse caminho.</td>
+                </tr>
+                <tr>
+                    <th>R</th>
+                    <td>Interpretada</td>
+                    <td>Sequencialização, orientado a objetos, imperativo, dinâmico, processual, recíproc0</td>
+                    <td>Dinâmica/fraca</td>
+                    <td>Alto nível</td>
+                    <td>Possui uma alta flexibilidade e potência para quem trabalha com dados e é acessível para não programadores, mas deixa a desejar em eficiência e velocidade e não é para desenvolvimento web logo ela é bem restrita para a área de big Data e afins.</td>
+                </tr>
             </tbody>
             <tfoot>
 
